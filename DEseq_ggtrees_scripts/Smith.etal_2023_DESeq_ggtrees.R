@@ -1,10 +1,5 @@
-# https://bioconductor.org/packages/release/bioc/html/ggtreeExtra.html
-# https://bioconductor.org/packages/release/bioc/vignettes/ggtreeExtra/inst/doc/ggtreeExtra.html
-# https://yulab-smu.top/treedata-book/chapter10.html
-
 # Set dir and files names-----
-
-dir <- "C:/Users/saundecj/Desktop/CO2 Earthworm/scripts/DEseq/"
+dir <- "DEseq_ggtrees_scripts"
 setwd(dir)
 
 xl.file <- "SmithEtal2023-canidates.xlsx"
@@ -98,10 +93,7 @@ trinotate.full <- trinotate.full %>%
 
 rownames(res.df[ which( res.df$padj < 0.05, res.df ),] )
 
-
-
 trinotate.full[ which( res.df$padj < 0.05, res.df ),]
-
 
 trinotate.p05 <- trinotate.full[ rownames(trinotate.full) %in% rownames(res.df[ which( res.df$padj < 0.05, res.df ),] ), ]
 
@@ -129,8 +121,6 @@ names(seq) <- trinotate %>% filter( gene_family == family) %>% pull(transcript_i
 msa <- msaClustalW(inputSeqs = seq)
 tree <- dist.alignment(msaConvert(msa, type="seqinr::alignment"),"identity")
 tree <- ape::njs(tree)
-
-
 
 ### make df for annotations ----
 
