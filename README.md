@@ -17,3 +17,5 @@ Slurm scripts that assemble and annotate _de novo_ transcriptome from raw Illumi
 [exudate_assay_data_stats](https://github.com/JakeSaunders/Smith_etal_2023_Earthworm_CO2/tree/main/exudate_assay_data_stats)
 
 Raw exudate assay data in csv format and an R script to generate graphs and statistical analysis of data featured in Smith *et al*, 2023.
+
+[![DOI](https://zenodo.org/badge/701913272.svg)](https://zenodo.org/badge/latestdoi/701913272)
