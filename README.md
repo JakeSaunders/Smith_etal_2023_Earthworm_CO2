@@ -12,7 +12,7 @@ R scripts and requisite files used to conduct analysis of transcript expression 
 
 **[Transcriptome_Assembly_Trinity_Trinotate](https://github.com/JakeSaunders/Smith_etal_2023_Earthworm_CO2/tree/main/Transcriptome_Assembly_Trinity_Trinotate)** 
 
-Slurm scripts that assemble and annotate _de novo_ transcriptome from raw Illumina reads using [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki) and [Trinotate](https://github.com/Trinotate/Trinotate/wiki). These scripts produce trinity.fasta, eh.1804.trinotate_annotation_report.xlsx, and eh.1804.countTable.csv which are required for the DEseq analysis. The RNA-sequencing data required to run these scripts can be found at NCBI's Sequence Read Archive (SRA) under the bioproject ID PRJNA1026068. 
+Slurm scripts that assemble and annotate _de novo_ transcriptome from raw Illumina reads using [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki) and [Trinotate](https://github.com/Trinotate/Trinotate/wiki). These scripts produce trinity.fasta, eh.1804.trinotate_annotation_report.xlsx, and eh.1804.countTable.csv which are required for the DEseq analysis. The RNA-sequencing data required to run these scripts can be found at NCBI's Sequence Read Archive (SRA) under the bioproject ID [PRJNA1026068](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1026068). 
 
 [exudate_assay_data_stats](https://github.com/JakeSaunders/Smith_etal_2023_Earthworm_CO2/tree/main/exudate_assay_data_stats)
 
